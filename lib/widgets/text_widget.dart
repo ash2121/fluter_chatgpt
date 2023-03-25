@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class TextWidget extends StatelessWidget {
@@ -16,14 +15,12 @@ class TextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Text(
-        label,
-        style: TextStyle(
-            color: color ?? Colors.white,
-            fontSize: fontsize,
-            fontWeight: fontWeight ?? FontWeight.w500),
-      ),
+    return Text(
+      label,
+      style: TextStyle(
+          color: color ?? Colors.white,
+          fontSize: fontsize,
+          fontWeight: fontWeight ?? FontWeight.w500),
     );
   }
 }

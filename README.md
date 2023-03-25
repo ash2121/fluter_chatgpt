@@ -1,4 +1,4 @@
-# fluuter_chatgpt
+# flutter_chatgpt
 
 A new Flutter project.
 
